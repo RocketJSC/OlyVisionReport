@@ -1,0 +1,10 @@
+C:\Users\lindahl\Documents\Visual Studio 2015\Projects\OlyVisionReport\OlyVisionReport\obj\Release\OlyVisionReport.vbproj.GenerateResource.Cache
+C:\Users\lindahl\Documents\Visual Studio 2015\Projects\OlyVisionReport\OlyVisionReport\bin\Release\OlyVisionReport.exe.config
+C:\Users\lindahl\Documents\Visual Studio 2015\Projects\OlyVisionReport\OlyVisionReport\bin\Release\OlyVisionReport.exe
+C:\Users\lindahl\Documents\Visual Studio 2015\Projects\OlyVisionReport\OlyVisionReport\bin\Release\OlyVisionReport.pdb
+C:\Users\lindahl\Documents\Visual Studio 2015\Projects\OlyVisionReport\OlyVisionReport\bin\Release\OlyVisionReport.xml
+C:\Users\lindahl\Documents\Visual Studio 2015\Projects\OlyVisionReport\OlyVisionReport\obj\Release\OlyVisionReport.Resources.resources
+C:\Users\lindahl\Documents\Visual Studio 2015\Projects\OlyVisionReport\OlyVisionReport\obj\Release\OlyVisionReport.exe
+C:\Users\lindahl\Documents\Visual Studio 2015\Projects\OlyVisionReport\OlyVisionReport\obj\Release\OlyVisionReport.xml
+C:\Users\lindahl\Documents\Visual Studio 2015\Projects\OlyVisionReport\OlyVisionReport\obj\Release\OlyVisionReport.pdb
+C:\Users\lindahl\Documents\Visual Studio 2015\Projects\OlyVisionReport\OlyVisionReport\obj\Release\OlyVisionReport.vbprojResolveAssemblyReference.cache
