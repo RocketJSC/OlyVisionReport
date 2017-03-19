@@ -24,7 +24,15 @@ Module Module1
         Console.WriteLine("Retrieving list of files to process ...")
 
         Dim myDirectory As New IO.DirectoryInfo(strFileLocation)
-        Dim files() As String = myDirectory.GetFiles.OrderBy(Function(x) x.Extension).Select(Function(x) x.FullName).ToArray
+        Dim files() As String
+        Try
+            files = myDirectory.GetFiles.OrderBy(Function(x) x.Extension).Select(Function(x) x.FullName).ToArray
+        Catch ex As Exception
+            Console.WriteLine("File error " + ex.Message)
+            Console.WriteLine("Press <Enter> to terminate program.")
+            Console.ReadLine()
+            End
+        End Try
 
         For Each filename As String In files
             If (InStr(filename, ".0") > 0 Or InStr(filename, ".1") > 0) Then
@@ -40,10 +48,10 @@ Module Module1
         Next
         Call Print_Vision_Report(strTurn, strFileLocation)
         'Call Print_Skill_Report(strTurn, strFileLocation)
-        Array.Sort(arSkillCity)
-        For index = 0 To UBound(arSkillCity) - 1
-            Console.WriteLine(arSkillCity(index))
-        Next
+        'Array.Sort(arSkillCity)
+        'For index = 0 To UBound(arSkillCity) - 1
+        '    Console.WriteLine(arSkillCity(index))
+        'Next
         Console.WriteLine("Report finished ...")
         Console.ReadLine()
 
